@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to git-extras, a collection of tools to help you work with git at Uber.
+Welcome to git-extras, a collection of tools to help you work with git.
 
 # Installation
 
