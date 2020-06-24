@@ -2,6 +2,12 @@
 
 Welcome to git-extras, a collection of tools to help you work with git.
 
+# Pre-requiste
+
+This only works with python2.7 and pip.
+brew install python
+sudo easy_install pip
+
 # Installation
 
 As you're reading this, you've probably already cloned the repo on your machine.
@@ -23,4 +29,13 @@ git config --global alias.amend "\!git amend.py"
 git config --global alias.restack "\!git restack.py"
 git config --global alias.sl "\!git smartlog.py"
 git config --global alias.view "\!git view.py"
+```
+
+OR
+
+```
+git config --global alias.amend "\!python git-amend.py"
+git config --global alias.restack "\!python git-restack.py"
+git config --global alias.sl "\!python git-smartlog.py"
+git config --global alias.view "\!python git-view.py"
 ```
